@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1><img class="crop" src="../imagenes/fondo.jpg" alt="Imagen de fondo"></h1>
+        <h1 class="cocinatucuerpo">TittoCooks  </h1>
+        <nav class="menuprincipal">
+            <ul>
+                <li><a href="../html/index.html">Inicio</a></li>
+                <li><a href="../html/salados.html">Salados</a></li>
+                <li><a href="../html/dulces.html">Dulceros</a></li>
+                <li><a href="../html/inscripcion.html">Comienza ya!</a></li>
+                <li><a href="../html/menusemanal.html">Menu Semanal</a></li>
+                <li><a href="../html/restaurante.html">Pide algo!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="inscripcion">
+        <br>
+        <h2 class="cabeceraInscripcion">Inscripción en el programa</h2>
+        <p>Aquí podrás rellenar tus datos y recibir una atención personalizada en función de tus objetivos y metas. Así como un menú personalizado e ideas para poder involucrarte un una vida más saludable y sencilla.</p>
+        <form>
+            <fieldset>
+                <legend>Información personal</legend>
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni">
+                <br>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+                <br>
+
+                <label for="apellido1">Apellido1:</label>
+                <input type="text" id="apellido1">
+
+                <br>
+                <label for="apellido2">Apellido2:</label>
+                <input type="text" id="apellido2">
+            
+                <br>
+                <label for="start">Fecha de nacimiento:</label>
+                <br>
+                <input type="date" id="start" name="trip-start">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos Físicos</legend>
+                <label for="edad">
+                    ¿Qué edad tienes? (debes ser mayor de edad)
+                </label>
+                <input type="number" id="edad" min="18" max="90">
+                <br>
+
+                <label for="altura">Altura (cm):</label>
+                <input type="text" id="altura">
+                <br>
+
+                <label for="peso">Peso (Kg):</label>
+                <input type="text" id="peso">
+                <br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Objetivos</legend>
+                <input type="checkbox" id="bajarPeso" name="bajarPeso" value="bajarPeso">
+                <label for="bajarPeso">Bajar de peso</label>
+                <br>
+                <input type="checkbox" id="definicionMuscular" name="definicionMuscular" value="definicionMuscular">
+                <label for="definicionMuscular">Definición muscular</label>
+                <br>
+
+                <input type="checkbox" id="volumen" name="volumen" value="volumen">
+                <label for="volumen">Volumen muscular</label>
+                <br>
+
+                <input type="checkbox" id="estiloSaludable" name="estiloSaludable" value="estiloSaludable">
+                <label for="estiloSaludable">Crear hábito saludable</label>
+
+            </fieldset>
+            <br>
+
+            <input type="submit" id="inscribirse" value="Empezar ya!">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <h4>Puedes encontrarnos en Instagram <a href="https://instagram.com/tittocooks?igshid=14udkwzcbjxav">@TittoCooks</a></h4>
+    </footer>
+
+    
+</body>
+</html>
